@@ -1,7 +1,6 @@
 #from Employees import *
 from Employees.Employees import Employees
 
-
 class Lecturers(Employees):
     def __init__(self, type, name, age, seniority, salary=5600):
         super().__init__(name, age, seniority, salary)
